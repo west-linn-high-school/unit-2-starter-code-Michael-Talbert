@@ -18,13 +18,13 @@ public class StringMutation
        Integer obj2 = new Integer(12);
        int num2;
        num2 = obj2;
-       
+      
        
        Math.pow(7,4);
        
        
        Scanner scan = new Scanner(System.in);
-       
+        
     }
 } 
     
