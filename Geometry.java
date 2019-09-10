@@ -13,7 +13,7 @@ public class Geometry
         final double PI = 22/7;
         System.out.println("A heptagon has "+ sides+" sides");
         System.out.println("A decagon has "+ (sides+3)+" sides");
-        System.out.println("A dodecagon has "+ (2*sides+6)+" sides");
+        System.out.println("A dodecagon has "+ (sides+5)+" sides");
         System.out.println("The circumfrence of a circle with a radius of "+radius+" is "+(2*radius*PI));
 }
 }
