@@ -4,27 +4,17 @@ import java.util.*;
 /**
  * Play with Strings
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Michael Talbert
+ * @version 1.0
  */
 public class StringMutation
 {
     public static void main(String[] args)
     {
         String phrase= new String("Change is inevitable");
-        
+        int phrasreLength = phrase.length();
+        System.out.println("phrase length is "+phrasreLength+"and the phrase is "+phrase);
        String mut1, mut2, mut3, mut4;
-       
-       Integer obj2 = new Integer(12);
-       int num2;
-       num2 = obj2;
-      
-       
-       Math.pow(7,4);
-       
-       
-       Scanner scan = new Scanner(System.in);
-        
+
     }
-} 
-    
+}
