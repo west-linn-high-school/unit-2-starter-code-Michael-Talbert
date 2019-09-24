@@ -1,0 +1,25 @@
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.Group;
+import javafx.scene.shape.Circle;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+import javafx.scene.shape.Rectangle;
+
+public class fxPracticePT2 extends Application{
+
+  public void start(Stage stage){
+    Text greeting = new Text("Hello!!");
+    Text compliment = new Text("youre pretty cool");
+    Circle circle = new Circle(10.0, 10.0, 5.0);
+    Rectangle box = new Rectangle(2, 2, 5, 5);
+
+    circle.setStroke(Color.Green);
+    circle.setFill(Color.White);
+
+    Group group = new Group(greeting, compliment, circle, rectangle);
+    Scene scene = new Scene(group, 100, 100, Color.Red)
+  }
+
+}
